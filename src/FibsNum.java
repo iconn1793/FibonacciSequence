@@ -10,9 +10,6 @@ public class FibsNum {
 		for (int k = 1; k <= 10; k++){
         System.out.print(fib(k) + " ");
 		}
-		
-		System.out.println("\n");
-		System.out.println(fib(10));
 
 	}
 	
