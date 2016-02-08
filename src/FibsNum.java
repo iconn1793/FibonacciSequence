@@ -7,30 +7,38 @@ public class FibsNum {
 		
 		//this main method only serves to demo the fib() method, which can generate any number in the Fibonacci sequence.
 		
-		for (int k = 1; k <= 20; k++){
+		for (int k = 1; k <= 10; k++){
         System.out.print(fib(k) + " ");
 		}
+		
+		System.out.println("\n");
+		System.out.println(fib(10));
 
 	}
 	
 	public static int fib( int n ){
 		
-		int[] sequence = new int[n];
-		sequence[0] = 1;
+		int a = 1;
+		int b = 1;
+		int num = 0;
 		
-		if (n > 1){
-			sequence[1] = 1;
+		if (n < 1 ){
+			return 0;
 		}
 		
+		if( n==1 || n==2 ) {
+			return 1;
+		}
 		
 		for (int i = 2; i < n; i++){
 			
-			sequence[i] = sequence[i-1] + sequence[i-2];
+			num = a + b; 
+			a = b;
+			b = num;
 			
 		}
 		
-		
-		return sequence[n-1];
+		return num;
 		
 	}
 
