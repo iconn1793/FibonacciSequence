@@ -20,6 +20,7 @@ public class FibsNum {
 		int num = 0;
 		
 		if (n < 1 ){
+			System.out.println("Please enter a positive number.\n");
 			return 0;
 		}
 		
