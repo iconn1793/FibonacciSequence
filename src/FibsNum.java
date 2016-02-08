@@ -7,7 +7,7 @@ public class FibsNum {
 		
 		//this main method only serves to demo the fib() method, which can generate any number in the Fibonacci sequence.
 		
-		for (int k = 1; k <= 10; k++){
+		for (int k = 1; k <= 20; k++){
         System.out.print(fib(k) + " ");
 		}
 
