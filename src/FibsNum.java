@@ -10,6 +10,9 @@ public class FibsNum {
 		for (int k = 1; k <= 10; k++){
         System.out.print(fib(k) + " ");
 		}
+		System.out.println("\n\n");
+		
+		System.out.println(recFib(9, 3, 1, 1));
 
 	}
 	
@@ -37,6 +40,36 @@ public class FibsNum {
 		}
 		
 		return num;
+		
+	}
+	
+	public static int recFib( int n, int p, int j, int k){
+		
+		//n == nth number in sequence that user wants
+		//p == recursion counter (what number in sequence currently being generated)
+		//j & k == previous numbers in sequence
+		
+		int l = j + k; 
+		j = k;
+		k = l;
+		
+		if (n <= 0){
+			System.out.println("Please enter a positive integer." );
+			return 0;
+		}
+		else if (n <= 2){
+			return 1;
+		}
+		else if (p < n ){
+			p++;
+			return recFib(n, p, j, k);
+		}
+		else if (p == n){
+			return l;
+		}
+		else{
+			return 0;
+		}
 		
 	}
 
