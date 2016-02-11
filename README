@@ -1,7 +1,7 @@
 ----------------------------------------------------FIBSNUM------------------------------------------------------------------
 
 -------------USAGE--------------
-The FibsNum() class can be used to return the nth number in Fibonacci's sequence. 
+The FibsNum() java class can be used to return the nth number in Fibonacci's sequence. 
 
 
 ----------IMPLEMENTATION--------
