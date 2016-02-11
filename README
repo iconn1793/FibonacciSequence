@@ -1,3 +1,12 @@
-FibsNum() contains the method fib(n) which will return the nth number in Fibonacci's sequence. 
+----------------------------------------------------FIBSNUM------------------------------------------------------------------
 
-Running FibsNum's main method will prompt you to enter a value for n. Otherwise, calling the method recFib(n) will allow you to pass n in directly as an argument. 
+-------------USAGE--------------
+The FibsNum() class can be used to return the nth number in Fibonacci's sequence. 
+
+
+----------IMPLEMENTATION--------
+Running the FibsNum main method will prompt you to enter a value for n. Otherwise, calling the method recFib(n) will allow you to pass n in directly as an argument (as seen below).
+
+*MyFibsNumObject*.recFib(n); 
+
+
