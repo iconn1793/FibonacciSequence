@@ -9,7 +9,7 @@ FibsNum.java can be downloaded and saved into any project file for implemenation
 ___________IMPLEMENTATION___________
 Running the FibsNum main method will prompt you to enter a value for "n". Otherwise, calling the method recFib(n) will allow you to pass "n" in directly as an argument (as seen below).
 
-*MyFibsNumObject*.recFib(*int* n); 
+        *MyFibsNumObject*.recFib(*int* n); 
 
 _____________KNOWN BUGS____________
 -Entering a non-integer value in for "n" will cause the program to crash.
